@@ -16,4 +16,13 @@
 # Generating SSh key pair
 # ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
+
+
+
+#### Git Branching
 # git branch  # It shows all the branches and highlights the current branch
+
+# git branch <branch_name>  # Creates a new branch
+# git checkout <branch_name>  # jumps (checkout) to the next branch
+
+# git cbeckout -b <branch_name>  # creates a new branch and jumps to that branch
