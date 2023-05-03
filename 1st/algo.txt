@@ -1,0 +1,9 @@
+A = 7
+if remainder of A/5=0 && remainder of A/3=0 then print fizzbuzz
+else if remainder of A/5 = 0 then print buzz
+else if remainder of A/3 = 0 then print fizz
+else print A
+
+
+Python.org
+pycharm
