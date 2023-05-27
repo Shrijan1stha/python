@@ -1,0 +1,24 @@
+1. To create a new virtual environment
+    => python -m venv venv
+
+
+2. Activate venv for Linux / Mac
+    source venv/bin/activate
+
+
+3. Activate venv for Windows
+    dc venv
+    cd Scripts
+    activate (This works for command prompt but not in powershell)
+    and get out to the folder where venv is created using cd .. command twice.
+
+
+4. pip install <package_name>  # This installs the package from pypi
+5. pip list  => This lists all the packages in the virtual environment.
+6. pip freez  => This also lists the packages in the enironment.
+7. pip freeze > requirements.txt  => This lists all the packages in the requirements.txt file
+8. pip install -r requirements.txt  => This recursively installs packages from the requirements.txt file
+9. pip uninstall <package_name>
+
+
+10. deactivate  => This deactivates the virtual environment.

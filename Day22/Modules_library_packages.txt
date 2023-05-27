@@ -1,0 +1,4 @@
+1. Every python file inside a python package is a module.
+2. Every folder with python files (modules) is a python package. Python package also includes __init__.py
+3. Collection of python packages and modules in a library.
+4.
