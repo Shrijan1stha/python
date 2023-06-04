@@ -1,7 +1,7 @@
 from Day25.estd_connection import estd_connection
 
-cursor = estd_connection()
 def read(student_id):
+    cursor = estd_connection()
 
     sql = f"""
         SELECT * FROM STUDENT WHERE ID = '{student_id}'

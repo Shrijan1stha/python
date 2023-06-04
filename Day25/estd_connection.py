@@ -1,4 +1,4 @@
-# psycopg2 (py Connector for Postgres) is the package to connect python witth postgres.
+# psycopg2 (py Connector for Postgres) is the package to connect python with postgres.
 
 
 def estd_connection():

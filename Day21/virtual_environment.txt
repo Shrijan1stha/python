@@ -15,7 +15,7 @@
 
 4. pip install <package_name>  # This installs the package from pypi
 5. pip list  => This lists all the packages in the virtual environment.
-6. pip freez  => This also lists the packages in the enironment.
+6. pip freeze  => This also lists the packages in the enironment.
 7. pip freeze > requirements.txt  => This lists all the packages in the requirements.txt file
 8. pip install -r requirements.txt  => This recursively installs packages from the requirements.txt file
 9. pip uninstall <package_name>

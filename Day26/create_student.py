@@ -1,8 +1,9 @@
 from Day25.estd_connection import estd_connection
 
-cursor = estd_connection()
 
 def create():
+    cursor = estd_connection()
+
     id = input("Enter student id: ")
     name = input("Enter student name: ")
     age = input("Enter student age: ")

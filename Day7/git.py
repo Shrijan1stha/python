@@ -1,6 +1,6 @@
 # git init
 # git add .  (git add --all)
-# git commmit -m "<commit_message>"
+# git commit -m "<commit_message>"
 # git remote add origin <ssh link>
 # git push -u origin <branch name>
 

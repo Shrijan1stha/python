@@ -1,9 +1,11 @@
 from Day25.estd_connection import estd_connection
 
-cursor = estd_connection()
+
 
 
 def delete(id):
+    cursor = estd_connection()
+
     if id == 'a':
         sql = """
             DELETE FROM STUDENT

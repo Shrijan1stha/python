@@ -36,7 +36,7 @@ def inquiry():
         else:
             id = input("Enter student id: ")
             contd = delete(id)
-            inquiry() if contd else exit_message()
+        inquiry() if contd else exit_message()
     else:
         print("Invalid Choice !!")
 
